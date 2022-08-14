@@ -1,0 +1,9 @@
+import os
+os.system("clear")
+import datetime
+now = datetime.datetime.now ()
+age = int(input("   ENTER YOUR BIRTHDAY : "))
+year = now.year
+n = year-age
+
+print ("Your age is now...: ")
